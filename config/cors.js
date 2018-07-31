@@ -16,9 +16,7 @@ module.exports = {
   | Function - Receives the current origin and should return one of the above values.
   |
   */
-  // origin: false,
-  origin: ['http://127.0.0.1', 'http://127.0.0.1:8080'],
-  // origin: true,
+  origin: false,
 
   /*
   |--------------------------------------------------------------------------
@@ -31,7 +29,7 @@ module.exports = {
   | Array - An array of allowed methods
   |
   */
-  methods: ['GET', 'PUT', 'POST', 'DELETE'],
+  methods: ['GET', 'PUT', 'POST'],
 
   /*
   |--------------------------------------------------------------------------

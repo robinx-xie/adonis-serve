@@ -1,7 +1,6 @@
 'use strict'
 
 const User = use('App/Models/User')
-const Database = use('Database')
 
 class UserController {
     async index() {
